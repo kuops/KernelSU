@@ -23,7 +23,7 @@ jobs:
         include:
           - version: "6.12"
             sub_level: 23
-            os_patch_level: 2025-10
+            os_patch_level: 2025-09
     uses: ./.github/workflows/gki-kernel.yml
     secrets: inherit
     with:
